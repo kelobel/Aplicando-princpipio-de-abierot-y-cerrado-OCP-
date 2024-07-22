@@ -3,7 +3,7 @@
 
 namespace OCP.OCP.Subscriptions
 {
-    public class CombinedCourse : Course
+    public class HybridCourse : Course
     {
         public override void Subscribe(Student std)
         {
