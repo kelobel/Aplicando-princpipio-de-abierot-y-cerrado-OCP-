@@ -1,0 +1,3 @@
+El proyecto cumple con el OCP porque podemos añadir nuevos tipos de cursos creando 
+nuevas clases que heredan de `Course` sin tener que modificar el código de Course ni de las clases  
+OnlineCourse o OfflineCourse. 
