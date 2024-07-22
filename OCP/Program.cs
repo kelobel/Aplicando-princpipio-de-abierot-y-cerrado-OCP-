@@ -9,10 +9,10 @@ class Program
 
         Course onlineCourse = new OnlineCourse { CourseId = 3, Title = "HTML Y CSS" };
         Course offlineCourse = new OfflineCourse { CourseId = 4, Title = "PHP" };
-        Course CombinedCourse = new CombinedCourse { CourseId = 5, Title = "Javascript" };
+        Course HybridCourse = new HybridCourse { CourseId = 5, Title = "Javascript" };
 
         onlineCourse.Subscribe(student);
         offlineCourse.Subscribe(student);
-        CombinedCourse.Subscribe(student);
+        HybridCourse.Subscribe(student);
     }
 }
